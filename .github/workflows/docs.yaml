@@ -15,8 +15,6 @@
         steps:
           - name: Checkout source
             uses: actions/checkout@v4
-            with:
-              token: ${{ secrets.BOT_ACCESS_TOKEN }}
     
           - name: Generate readme
             uses: actionhippie/ansible-doctor@v5

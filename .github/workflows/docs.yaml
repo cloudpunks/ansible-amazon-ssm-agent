@@ -10,7 +10,7 @@
     jobs:
       readme:
         runs-on: ubuntu-latest
-        if: github.repository_owner == 'rolehippie'
+        if: github.repository_owner == 'pascalrimann'
     
         steps:
           - name: Checkout source

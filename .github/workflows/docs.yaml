@@ -14,22 +14,22 @@ jobs:
 
     steps:
         - name: Checkout source
-        uses: actions/checkout@v4
+          uses: actions/checkout@v4
 
         - name: Generate readme
-        uses: actionhippie/ansible-doctor@v5
-        with:
-            force: true
-            verbose: true
+          uses: actionhippie/ansible-doctor@v5
+          with:
+              force: true
+              verbose: true
 
         - name: Commit changes
-        uses: EndBug/add-and-commit@v9
-        with:
+          uses: EndBug/add-and-commit@v9
+          with:
             author_name: GitHub Actions
             author_email: pascal.rimann@yahoo.de
             add: README.md
             message: "docs: automated readme update [skip ci]"
             push: true
             commit: --signoff
-    
+
 ...

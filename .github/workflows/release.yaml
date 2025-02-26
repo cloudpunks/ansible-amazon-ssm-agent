@@ -8,8 +8,8 @@ name: release
 
 jobs:
     release:
-    runs-on: ubuntu-latest
-    if: github.repository_owner == 'pascalrimann'
+      runs-on: ubuntu-latest
+      if: github.repository_owner == 'pascalrimann'
 
     steps:
         - name: Checkout source

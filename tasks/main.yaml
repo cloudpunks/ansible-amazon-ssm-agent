@@ -1,7 +1,7 @@
 ---
 - name: Install a amazon-ssm-agent.deb package from the internet
   ansible.builtin.apt:
-    deb: {{ amazon_ssm_agent_package }}
+    deb: "{{ amazon_ssm_agent_package }}"
     state: present
   tags:
     - amazon-ssm-agent

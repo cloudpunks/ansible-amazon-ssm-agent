@@ -1,0 +1,11 @@
+# ---> Ansible
+*.retry
+
+# ---> Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---> Flake
+.direnv/
+.devenv/

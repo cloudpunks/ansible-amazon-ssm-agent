@@ -1,0 +1,19 @@
+---
+- name: Install a amazon-ssm-agent.deb package from the internet
+  ansible.builtin.apt:
+    deb: "{{ amazon_ssm_agent_package }}"
+    state: present
+  tags:
+    - amazon-ssm-agent
+
+- name: Start amazon-ssm-agent service
+  ansible.builtin.systemd:
+    name: amazon-ssm-agent
+    state: started
+    daemon_reload: True
+    masked: False
+    enabled: True
+  tags:
+    - amazon-ssm-agent
+
+...

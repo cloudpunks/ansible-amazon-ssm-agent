@@ -1,5 +1,8 @@
 # amazon-ssm-agent
 
+
+Ansible role to install Amazon SSM Agent.
+
 ## Table of content
 
 - [Requirements](#requirements)
@@ -15,7 +18,7 @@
 
 ## Requirements
 
-None.
+- Minimum Ansible version: `2.10`
 
 ## Default Variables
 
@@ -47,4 +50,12 @@ amazon_ssm_agent_version: latest
 
 ## Dependencies
 
-None.
+- None
+
+## License
+
+Apache-2.0
+
+## Author
+
+[Pascal Rimann](https://github.com/pascalrimann)

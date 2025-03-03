@@ -5,7 +5,7 @@
 [![Readme Workflow](https://github.com/cloudpunks/ansible-amazon-ssm-agent/actions/workflows/docs.yml/badge.svg)](https://github.com/cloudpunks/ansible-amazon-ssm-agent/actions/workflows/docs.yml)
 [![Galaxy Workflow](https://github.com/cloudpunks/ansible-amazon-ssm-agent/actions/workflows/galaxy.yml/badge.svg)](https://github.com/cloudpunks/ansible-amazon-ssm-agent/actions/workflows/galaxy.yml)
 [![License: Apache-2.0](https://img.shields.io/github/license/cloudpunks/ansible-amazon-ssm-agent)](https://github.com/cloudpunks/ansible-amazon-ssm-agent/blob/master/LICENSE)
-[![Ansible Role](https://img.shields.io/badge/role-cloudpunks.ansible-amazon-ssm-agent-blue)](https://galaxy.ansible.com/cloudpunks/ansible-amazon-ssm-agent)
+[![Ansible Role](https://img.shields.io/ansible/role/d/cloudpunks/amazon_ssm_agent)](https://galaxy.ansible.com/cloudpunks/amazon_ssm_agent)
 
 Ansible role to install and configure Amazon SSM agent.
 

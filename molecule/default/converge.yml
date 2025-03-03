@@ -2,6 +2,6 @@
 - name: Converge
   hosts: all
   roles:
-    - role: cloudpunks.amazon-ssm-agent
+    - role: cloudpunks.amazon_ssm_agent
 
 ...

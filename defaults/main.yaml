@@ -2,7 +2,10 @@
 # @var amazon_ssm_agent_version:description: Version of the release to install
 amazon_ssm_agent_version: "latest"
 
+# @var amazon_ssm_agent_arch:description: Architecture of the package to install
+amazon_ssm_agent_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64' }}"
+
 # @var amazon_ssm_agent_package:description: Download URL for the package to install
-amazon_ssm_agent_package: "https://s3.amazonaws.com/ec2-downloads-windows/SSMAgent/{{ amazon_ssm_agent_version }}/debian_amd64/amazon-ssm-agent.deb"
+amazon_ssm_agent_package: "https://s3.amazonaws.com/ec2-downloads-windows/SSMAgent/{{ amazon_ssm_agent_version }}/debian_{{ amazon_ssm_agent_arch }}/amazon-ssm-agent.deb"
 
 ...

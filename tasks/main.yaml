@@ -1,12 +1,12 @@
 ---
-- name: Install a amazon-ssm-agent.deb package from the internet
+- name: Install upstream deb
   ansible.builtin.apt:
     deb: "{{ amazon_ssm_agent_package }}"
     state: present
   tags:
     - amazon-ssm-agent
 
-- name: Start amazon-ssm-agent service
+- name: Start agent service
   ansible.builtin.systemd:
     name: amazon-ssm-agent
     state: started

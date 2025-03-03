@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/cloudpunks/ansible-amazon-ssm-agent/compare/v1.0.0...v1.1.0) (2025-03-03)
+
+
+### Features
+
+* add default for architecture ([6189fe1](https://github.com/cloudpunks/ansible-amazon-ssm-agent/commit/6189fe18e8ef3cc40ed53b68be7b70c5b02ece67))
+
 ## 1.0.0 (2025-03-03)
 
 

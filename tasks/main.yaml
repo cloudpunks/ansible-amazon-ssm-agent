@@ -7,6 +7,8 @@
     - amazon-ssm-agent
 
 - name: Start agent service
+  when:
+    - not ansible_check_mode
   ansible.builtin.systemd:
     name: amazon-ssm-agent
     state: started
@@ -15,6 +17,5 @@
     enabled: True
   tags:
     - amazon-ssm-agent
-  when: not ansible_check_mode
 
 ...

@@ -15,5 +15,6 @@
     enabled: True
   tags:
     - amazon-ssm-agent
+  when: not ansible_check_mode
 
 ...

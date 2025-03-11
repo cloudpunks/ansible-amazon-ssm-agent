@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0](https://github.com/cloudpunks/ansible-amazon-ssm-agent/compare/v1.1.0...v1.2.0) (2025-03-11)
+
+
+### Features
+
+* dont run start service in checkmode ([5bb55a7](https://github.com/cloudpunks/ansible-amazon-ssm-agent/commit/5bb55a7c60636a6d9e388a5962ed89f32a8b0b55))
+
+
+### Bugfixes
+
+* when condition on correct place ([cfc5498](https://github.com/cloudpunks/ansible-amazon-ssm-agent/commit/cfc549885ce114b43f7182e6ab7dfcef9d2347cb))
+
 ## [1.1.0](https://github.com/cloudpunks/ansible-amazon-ssm-agent/compare/v1.0.0...v1.1.0) (2025-03-03)
 
 

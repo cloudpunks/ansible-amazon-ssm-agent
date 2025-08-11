@@ -1,4 +1,4 @@
-# amazon-ssm-agent
+# workspace
 
 [![Source Code](https://img.shields.io/badge/github-source%20code-blue?logo=github&logoColor=white)](https://github.com/cloudpunks/ansible-amazon-ssm-agent)
 [![General Workflow](https://github.com/cloudpunks/ansible-amazon-ssm-agent/actions/workflows/general.yml/badge.svg)](https://github.com/cloudpunks/ansible-amazon-ssm-agent/actions/workflows/general.yml)
@@ -47,8 +47,10 @@ Download URL for the package to install
 #### Default value
 
 ```YAML
-amazon_ssm_agent_package: https://s3.amazonaws.com/ec2-downloads-windows/SSMAgent/{{
-  amazon_ssm_agent_version }}/debian_{{ amazon_ssm_agent_arch }}/amazon-ssm-agent.deb
+amazon_ssm_agent_package: 
+  https://s3.amazonaws.com/ec2-downloads-windows/SSMAgent/{{ 
+  amazon_ssm_agent_version }}/debian_{{ amazon_ssm_agent_arch 
+  }}/amazon-ssm-agent.deb
 ```
 
 ### amazon_ssm_agent_version
@@ -64,7 +66,6 @@ amazon_ssm_agent_version: latest
 ## Discovered Tags
 
 **_amazon-ssm-agent_**
-
 
 ## Dependencies
 

@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/cloudpunks/ansible-amazon-ssm-agent/compare/v1.2.0...v1.3.0) (2025-09-30)
+
+
+### Features
+
+* apply new repo structure and update linting and integrate noble ([2b4a396](https://github.com/cloudpunks/ansible-amazon-ssm-agent/commit/2b4a396dbd83de061688e72102d30e307c1bf9d3))
+
 ## [1.2.0](https://github.com/cloudpunks/ansible-amazon-ssm-agent/compare/v1.1.0...v1.2.0) (2025-03-11)
 
 

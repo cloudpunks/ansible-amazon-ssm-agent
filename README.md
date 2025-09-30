@@ -1,4 +1,4 @@
-# workspace
+# amazon-ssm-agent
 
 [![Source Code](https://img.shields.io/badge/github-source%20code-blue?logo=github&logoColor=white)](https://github.com/cloudpunks/ansible-amazon-ssm-agent)
 [![General Workflow](https://github.com/cloudpunks/ansible-amazon-ssm-agent/actions/workflows/general.yml/badge.svg)](https://github.com/cloudpunks/ansible-amazon-ssm-agent/actions/workflows/general.yml)
@@ -36,8 +36,8 @@ Architecture of the package to install
 #### Default value
 
 ```YAML
-amazon_ssm_agent_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64'
-  }}"
+amazon_ssm_agent_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' or ansible_architecture
+  == 'arm64' else 'amd64' }}"
 ```
 
 ### amazon_ssm_agent_package

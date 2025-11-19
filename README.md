@@ -9,7 +9,7 @@
 
 Ansible role to install and configure Amazon SSM agent.
 
-## Table of content
+## Table of contents
 
 - [Requirements](#requirements)
 - [Default Variables](#default-variables)

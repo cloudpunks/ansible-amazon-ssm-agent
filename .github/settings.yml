@@ -56,10 +56,10 @@ rulesets:
       - actor_id: 1
         actor_type: OrganizationAdmin
         bypass_mode: always
-      - actor_id: 2041513 # app
+      - actor_id: 2041513  # app
         actor_type: Integration
         bypass_mode: always
-      - actor_id: 8266541 # bots
+      - actor_id: 8266541  # bots
         actor_type: Team
         bypass_mode: always
 
@@ -86,10 +86,10 @@ rulesets:
       - actor_id: 1
         actor_type: OrganizationAdmin
         bypass_mode: always
-      - actor_id: 2041513 # app
+      - actor_id: 2041513  # app
         actor_type: Integration
         bypass_mode: always
-      - actor_id: 8266541 # bots
+      - actor_id: 8266541  # bots
         actor_type: Team
         bypass_mode: always
 

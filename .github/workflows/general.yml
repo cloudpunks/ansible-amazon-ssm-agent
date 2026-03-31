@@ -24,7 +24,7 @@ jobs:
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
 
       - name: Role linting
-        uses: ansible/ansible-lint@main
+        uses: ansible/ansible-lint@f1b79918291273b23a8c3bf40e75a53a13d062b2 # main
         with:
           requirements_file: requirements.yml
 

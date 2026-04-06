@@ -31,7 +31,7 @@ jobs:
           token: ${{ steps.token.outputs.token }}
 
       - name: Generate readme
-        uses: actionhippie/ansible-doctor@7126a466606e82f9e969509934f8562fc439cc3f # v6
+        uses: actionhippie/ansible-doctor@eed1d139e5afbda9822c8e7e5cf23377871c91cd # v6
         with:
           force: true
           verbose: true

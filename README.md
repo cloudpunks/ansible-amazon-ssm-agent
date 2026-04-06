@@ -36,8 +36,7 @@ Architecture of the package to install
 #### Default value
 
 ```YAML
-amazon_ssm_agent_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' or ansible_architecture
-  == 'arm64' else 'amd64' }}"
+amazon_ssm_agent_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' or ansible_architecture == 'arm64' else 'amd64' }}"
 ```
 
 ### amazon_ssm_agent_package
@@ -47,10 +46,7 @@ Download URL for the package to install
 #### Default value
 
 ```YAML
-amazon_ssm_agent_package: 
-  https://s3.amazonaws.com/ec2-downloads-windows/SSMAgent/{{ 
-  amazon_ssm_agent_version }}/debian_{{ amazon_ssm_agent_arch 
-  }}/amazon-ssm-agent.deb
+amazon_ssm_agent_package: https://s3.amazonaws.com/ec2-downloads-windows/SSMAgent/{{ amazon_ssm_agent_version }}/debian_{{ amazon_ssm_agent_arch }}/amazon-ssm-agent.deb
 ```
 
 ### amazon_ssm_agent_version

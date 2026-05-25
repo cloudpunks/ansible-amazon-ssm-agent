@@ -23,7 +23,7 @@ jobs:
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
 
       - name: Galaxy upload
-        uses: actionhippie/ansible-galaxy@1a58fadcee045d9e8f88d8c4d845ae922ce3c71f # v1
+        uses: actionhippie/ansible-galaxy@ae1884111a335f5016606b8bebc89628dede7740 # v1
         with:
           token: ${{ secrets.GALAXY_TOKEN }}
 

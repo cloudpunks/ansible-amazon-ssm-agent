@@ -21,10 +21,10 @@ jobs:
 
     steps:
       - name: Checkout source
-        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
 
       - name: Role linting
-        uses: ansible/ansible-lint@47e40afb59452ed4327a9712d3028b30123ea71e # main
+        uses: ansible/ansible-lint@071982ba08c7890f3bd771a48f3983380c65afb4 # main
         with:
           requirements_file: requirements.yml
 
@@ -44,7 +44,7 @@ jobs:
         run: rm -rf /opt/hostedtoolcache/Python
 
       - name: Checkout source
-        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
 
       - name: Setup Python
         uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6

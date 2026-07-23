@@ -19,19 +19,19 @@ jobs:
     steps:
       - name: Generate token
         id: token
-        uses: actions/create-github-app-token@v3
+        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3
         with:
           client-id: ${{ secrets.TOKEN_EXCHANGE_APP }}
           private-key: ${{ secrets.TOKEN_EXCHANGE_KEY }}
           permission-contents: write
 
       - name: Checkout source
-        uses: actions/checkout@v7
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
           token: ${{ steps.token.outputs.token }}
 
       - name: Generate readme
-        uses: actionhippie/ansible-doctor@v6
+        uses: actionhippie/ansible-doctor@40ccde6609c522323835343bfd4a8eb736b9edef # v6
         with:
           force: true
           verbose: true
@@ -40,7 +40,7 @@ jobs:
         run: git pull --autostash --rebase
 
       - name: Commit changes
-        uses: EndBug/add-and-commit@v10
+        uses: EndBug/add-and-commit@290ea2c423ad77ca9c62ae0f5b224379612c0321 # v10
         with:
           author_name: GitHub Actions
           author_email: github@cloudpunks.de

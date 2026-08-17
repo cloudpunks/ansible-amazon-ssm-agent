@@ -1,5 +1,7 @@
 # Changelog
 
+## [1.6.0](https://github.com/cloudpunks/ansible-amazon-ssm-agent/compare/v1.5.0...v1.6.0) (2026-08-17)
+
 ## [1.5.0](https://github.com/cloudpunks/ansible-amazon-ssm-agent/compare/v1.4.0...v1.5.0) (2026-08-10)
 
 ## [1.4.0](https://github.com/cloudpunks/ansible-amazon-ssm-agent/compare/v1.3.0...v1.4.0) (2026-07-27)

@@ -17,6 +17,11 @@ jobs:
     if: github.repository_owner == 'cloudpunks'
 
     steps:
+      - name: Setup nodejs
+        uses: actions/setup-node@v7
+        with:
+          node-version: lts/*
+
       - name: Generate token
         id: token
         uses: actions/create-github-app-token@v3
@@ -43,7 +48,7 @@ jobs:
         uses: EndBug/add-and-commit@v11
         with:
           author_name: GitHub Actions
-          author_email: github@cloudpunks.de
+          author_email: github@webhippie.de
           add: README.md
           message: "docs: automated readme update [skip ci]"
           push: true

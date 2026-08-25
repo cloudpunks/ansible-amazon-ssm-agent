@@ -36,7 +36,7 @@ Architecture of the package to install
 #### Default value
 
 ```YAML
-amazon_ssm_agent_arch: "{{ 'arm64' if ansible_facts['architecture'] == 'aarch64' or ansible_facts['architecture'] == 'arm64' else 'amd64' }}"
+amazon_ssm_agent_arch: "{{ 'arm64' if ansible_facts['architecture'] in ['aarch64', 'arm64'] else 'amd64' }}"
 ```
 
 ### amazon_ssm_agent_package

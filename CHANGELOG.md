@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.7.0](https://github.com/cloudpunks/ansible-amazon-ssm-agent/compare/v1.6.0...v1.7.0) (2026-08-31)
+
+### Features
+
+* apply new standard repo structure and integrate mise ([077d270](https://github.com/cloudpunks/ansible-amazon-ssm-agent/commit/077d270d3f5cb4c5f0edda9ad54522fff2538292))
+
+### Bugfixes
+
+* use uv instead of pipx for mise ([1aaa998](https://github.com/cloudpunks/ansible-amazon-ssm-agent/commit/1aaa998b42e7f8e9e0d55daa8bb085f3a0cdb068))
+
+### Dependencies
+
+* **patch:** update dependency pipx:ansible-doctor to v8.4.1 ([#110](https://github.com/cloudpunks/ansible-amazon-ssm-agent/issues/110)) ([76e63a7](https://github.com/cloudpunks/ansible-amazon-ssm-agent/commit/76e63a7f43849010dc7c89563d742e205bc49ad9))
+* **patch:** update dependency uv to v0.12.5 ([#107](https://github.com/cloudpunks/ansible-amazon-ssm-agent/issues/107)) ([c14c9ee](https://github.com/cloudpunks/ansible-amazon-ssm-agent/commit/c14c9ee1e80234b6539c21f871a457db3bff4009))
+* **patch:** update dependency uv to v0.12.6 ([#108](https://github.com/cloudpunks/ansible-amazon-ssm-agent/issues/108)) ([3a77585](https://github.com/cloudpunks/ansible-amazon-ssm-agent/commit/3a77585f94ce2c37951e11decf5344ebc762f3a2))
+* **patch:** update dependency uv to v0.12.7 ([#109](https://github.com/cloudpunks/ansible-amazon-ssm-agent/issues/109)) ([3f2f986](https://github.com/cloudpunks/ansible-amazon-ssm-agent/commit/3f2f98625003666866a6c8f2ef73943a321f21d3))
+
 ## [1.6.0](https://github.com/cloudpunks/ansible-amazon-ssm-agent/compare/v1.5.0...v1.6.0) (2026-08-17)
 
 ## [1.5.0](https://github.com/cloudpunks/ansible-amazon-ssm-agent/compare/v1.4.0...v1.5.0) (2026-08-10)

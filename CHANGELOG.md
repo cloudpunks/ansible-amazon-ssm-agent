@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.7.1](https://github.com/cloudpunks/ansible-amazon-ssm-agent/compare/v1.7.0...v1.7.1) (2026-09-07)
+
+### Dependencies
+
+* **patch:** update dependency uv to v0.12.10 ([#113](https://github.com/cloudpunks/ansible-amazon-ssm-agent/issues/113)) ([d17365b](https://github.com/cloudpunks/ansible-amazon-ssm-agent/commit/d17365b9c6ef64dc99e85f2412e93a071466abd1))
+* **patch:** update dependency uv to v0.12.8 ([#111](https://github.com/cloudpunks/ansible-amazon-ssm-agent/issues/111)) ([d6b91f3](https://github.com/cloudpunks/ansible-amazon-ssm-agent/commit/d6b91f360d747149dcce83d5226c8891f72f09c0))
+* **patch:** update dependency uv to v0.12.9 ([#112](https://github.com/cloudpunks/ansible-amazon-ssm-agent/issues/112)) ([3727303](https://github.com/cloudpunks/ansible-amazon-ssm-agent/commit/3727303206e673806c5de4f6b358f6551aa3ebfd))
+
 ## [1.7.0](https://github.com/cloudpunks/ansible-amazon-ssm-agent/compare/v1.6.0...v1.7.0) (2026-08-31)
 
 ### Features

@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.7.2](https://github.com/cloudpunks/ansible-amazon-ssm-agent/compare/v1.7.1...v1.7.2) (2026-09-14)
+
+### Dependencies
+
+* **patch:** update dependency pipx:ansible-core to v2.21.4 ([#114](https://github.com/cloudpunks/ansible-amazon-ssm-agent/issues/114)) ([d166983](https://github.com/cloudpunks/ansible-amazon-ssm-agent/commit/d1669838b022666e64e7e741c1948c4893c70b11))
+* **patch:** update dependency uv to v0.12.11 ([#115](https://github.com/cloudpunks/ansible-amazon-ssm-agent/issues/115)) ([2fd8fbd](https://github.com/cloudpunks/ansible-amazon-ssm-agent/commit/2fd8fbdf9a611c4da62674b7a2349b22ff10329f))
+* **patch:** update dependency uv to v0.12.12 ([#116](https://github.com/cloudpunks/ansible-amazon-ssm-agent/issues/116)) ([cf091d5](https://github.com/cloudpunks/ansible-amazon-ssm-agent/commit/cf091d5fa7a204129609c95c2cc90cbb7311290a))
+* **patch:** update dependency uv to v0.12.13 ([#117](https://github.com/cloudpunks/ansible-amazon-ssm-agent/issues/117)) ([e7b99c3](https://github.com/cloudpunks/ansible-amazon-ssm-agent/commit/e7b99c386a641a41f99e88a054f896380584ba9c))
+
 ## [1.7.1](https://github.com/cloudpunks/ansible-amazon-ssm-agent/compare/v1.7.0...v1.7.1) (2026-09-07)
 
 ### Dependencies

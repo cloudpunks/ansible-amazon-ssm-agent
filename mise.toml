@@ -6,7 +6,7 @@ pre-commit = "4.6.2"
 python = "3.14.8"
 uv = "0.12.23"
 
-"pipx:ansible-doctor" = { version= "8.4.2", uvx_args = "--with ansible-core" }
+"pipx:ansible-doctor" = { version= "8.4.3", uvx_args = "--with ansible-core" }
 "pipx:ansible-lint" = "26.9.0"
 
 "pipx:ansible-core" = { version = "2.21.5", uvx_args = "--with docker --with requests" }

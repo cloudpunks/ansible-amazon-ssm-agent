@@ -4,7 +4,7 @@
 node = "24"
 pre-commit = "4.7.0"
 python = "3.14.8"
-uv = "0.13.0"
+uv = "0.13.1"
 
 "pipx:ansible-doctor" = { version= "8.4.3", uvx_args = "--with ansible-core" }
 "pipx:ansible-lint" = "26.10.1"

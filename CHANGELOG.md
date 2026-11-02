@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.0.0](https://github.com/cloudpunks/ansible-amazon-ssm-agent/compare/v1.10.1...v2.0.0) (2026-11-02)
+
+### Dependencies
+
+* **major:** update node.js to v26 ([#149](https://github.com/cloudpunks/ansible-amazon-ssm-agent/issues/149)) ([17ab626](https://github.com/cloudpunks/ansible-amazon-ssm-agent/commit/17ab6264a217498832a452c56b6c494976e8682a))
+* **patch:** update dependency prek to v0.5.9 ([#150](https://github.com/cloudpunks/ansible-amazon-ssm-agent/issues/150)) ([5f47219](https://github.com/cloudpunks/ansible-amazon-ssm-agent/commit/5f47219b05ef333b541282ad6cab72794934439d))
+* **patch:** update dependency uv to v0.13.6 ([#148](https://github.com/cloudpunks/ansible-amazon-ssm-agent/issues/148)) ([8d4cbae](https://github.com/cloudpunks/ansible-amazon-ssm-agent/commit/8d4cbae8636526619bc18598a3d171b9cf0a689b))
+
 ## [1.10.1](https://github.com/cloudpunks/ansible-amazon-ssm-agent/compare/v1.10.0...v1.10.1) (2026-10-26)
 
 ### Dependencies

@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.1.0](https://github.com/cloudpunks/ansible-amazon-ssm-agent/compare/v2.0.0...v2.1.0) (2026-11-09)
+
+### Dependencies
+
+* **minor:** update dependency pipx:ansible-core to v2.22.0 ([#151](https://github.com/cloudpunks/ansible-amazon-ssm-agent/issues/151)) ([ef7b6de](https://github.com/cloudpunks/ansible-amazon-ssm-agent/commit/ef7b6def2d74689b93183c8c4e58d8d8619c9c6b))
+* **minor:** update dependency pipx:ansible-lint to v26.11.0 ([#154](https://github.com/cloudpunks/ansible-amazon-ssm-agent/issues/154)) ([3330168](https://github.com/cloudpunks/ansible-amazon-ssm-agent/commit/33301686030f7a83d01ed6778e440b32d4829c1a))
+* **minor:** update dependency pipx:molecule to v26.11.0 ([#155](https://github.com/cloudpunks/ansible-amazon-ssm-agent/issues/155)) ([f1edc5f](https://github.com/cloudpunks/ansible-amazon-ssm-agent/commit/f1edc5fa41cc8d864e1864d349a1e1cc9e8c65b8))
+* **patch:** update dependency pipx:ansible-doctor to v8.4.4 ([#156](https://github.com/cloudpunks/ansible-amazon-ssm-agent/issues/156)) ([82c3a00](https://github.com/cloudpunks/ansible-amazon-ssm-agent/commit/82c3a00058d55b4f24abfd62de7e86a8bed62b5a))
+* **patch:** update dependency prek to v0.5.10 ([#153](https://github.com/cloudpunks/ansible-amazon-ssm-agent/issues/153)) ([1ea0cca](https://github.com/cloudpunks/ansible-amazon-ssm-agent/commit/1ea0ccae13522fbcf3df13afe7d8989de0e03431))
+* **patch:** update dependency uv to v0.13.7 ([#152](https://github.com/cloudpunks/ansible-amazon-ssm-agent/issues/152)) ([7df159b](https://github.com/cloudpunks/ansible-amazon-ssm-agent/commit/7df159b063b7d0e8000f7e505f964fde8d643ca7))
+
 ## [2.0.0](https://github.com/cloudpunks/ansible-amazon-ssm-agent/compare/v1.10.1...v2.0.0) (2026-11-02)
 
 ### Dependencies
